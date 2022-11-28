@@ -1368,7 +1368,7 @@ module macro_2xdrive(wb_clk_i, wb_rst_i, wbs_stb_i, wbs_cyc_i, wbs_we_i, wbs_sel
   sky130_fd_sc_hd__conb_1  _451_ (
     .LO(la_data_out[127])
   );
-  sky130_fd_sc_hd__conb_1  _452_ (
+  /*sky130_fd_sc_hd__conb_1  _452_ (
     .LO(user_irq[0])
   );
   sky130_fd_sc_hd__conb_1  _453_ (
@@ -1376,7 +1376,7 @@ module macro_2xdrive(wb_clk_i, wb_rst_i, wbs_stb_i, wbs_cyc_i, wbs_we_i, wbs_sel
   );
   sky130_fd_sc_hd__conb_1  _454_ (
     .LO(user_irq[2])
-  );
+  );*/
   sky130_fd_sc_hd__conb_1  _455_ (
     .LO(wbs_ack_o)
   );

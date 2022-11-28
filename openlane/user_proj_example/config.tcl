@@ -1,8 +1,9 @@
 set ::env(PDK) {sky130B}
 set ::env(STD_CELL_LIBRARY) {sky130_fd_sc_hd}
-set ::env(DESIGN_NAME) {macro_2xdrive}
+set ::env(DESIGN_NAME) {macro_2to3}
 set ::env(DESIGN_IS_CORE) {0}
-set ::env(VERILOG_FILES) {/opt/pico/verilog/rtl/defines.v /opt/pico/verilog/rtl/macro_2xdrive.v /opt/pico/verilog/rtl/alu_xor_4.v}
+set ::env(SYNTH_ELABORATE_ONLY) {1}
+set ::env(VERILOG_FILES) {/opt/pico/verilog/rtl/defines.v /opt/pico/verilog/rtl/synthesis/macro_2to3.v /opt/pico/verilog/rtl/alu_xor_4.v}
 set ::env(CLOCK_PERIOD) {10}
 set ::env(CLOCK_PORT) {}
 set ::env(CLOCK_NET) {}
@@ -18,5 +19,4 @@ set ::env(DIODE_INSERTION_STRATEGY) {4}
 set ::env(RUN_CVC) {1}
 set ::env(FP_CORE_UTIL) {50}
 set ::env(RT_MAX_LAYER) {met4}
-#set ::env(CURRENT_NETLIST) {/opt/pico/verilog/rtl/synthesis/macro_2xdrive.v}
-#set ::env(PL_RESIZER_DESIGN_OPTIMIZATIONS) 0
+

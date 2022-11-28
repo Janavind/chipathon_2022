@@ -9,14 +9,14 @@
 
 module macro_2xdrive  (
  `ifdef USE_POWER_PINS
-     inout vdda1,    // User area 1 3.3V supply
-     inout vdda2,    // User area 2 3.3V supply
-     inout vssa1,    // User area 1 analog ground
-     inout vssa2,    // User area 2 analog ground
      inout vccd1,    // User area 1 1.8V supply
-     inout vccd2,    // User area 2 1.8v supply
-     inout vssd1,    // User area 1 digital ground
-     inout vssd2,    // User area 2 digital ground
+     inout vccd2,    // User area 1 digital ground
+     inout vdda1,
+     inout vdda2,
+     inout vssd1,
+     inout vssd2,
+     inout vssa1,
+     inout vssa2,
  `endif		
 
 	// Wishbone Slave ports (WB MI A)

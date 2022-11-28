@@ -159,7 +159,7 @@ macro_10 u_macro_10 (
 			.analog_io(analog_io)
 
 		);
-*/
+
 
 macro_golden u_macro_golden (
 
@@ -195,18 +195,18 @@ macro_golden u_macro_golden (
 
 		);
 
-
+*/
 macro_2xdrive u_macro_2xdrive (
 
 		`ifdef USE_POWER_PINS
-			.vdda1(vdda1),  // User area 1 3.3V supply
-			.vdda2(vdda2),  // User area 2 3.3V supply
-			.vssa1(vssa1),  // User area 1 analog ground
-			.vssa2(vssa2),  // User area 2 analog ground
-			.vccd1(vccd1),  // User area 1 1.8V supply
-			.vccd2(vccd2),  // User area 2 1.8v supply
+			.vdda1(vdda1),
+			.vdda2(vdda2),
+			.vccd1(vccd1),	// User area 1 1.8V supply
+			.vccd2(vccd2),
 			.vssd1(vssd1),  // User area 1 digital ground
-			.vssd2(vssd2),  // User area 2 digital ground
+			.vssd2(vssd2),
+			.vssa1(vssa1),
+			.vssa2(vssa2),
 		`endif
 			.wb_rst_i(wb_rst_i),
 			.wbs_stb_i(wbs_stb_i),
@@ -335,7 +335,7 @@ macro_no_decap u_macro_no_decap (
 
 		);
 
-*/
+
 macro_and_inv u_macro_and_inv (
 
 	`ifdef USE_POWER_PINS
@@ -369,7 +369,7 @@ macro_and_inv u_macro_and_inv (
 		//	.analog_io(analog_io)
 
 		);
-
+*/
 	
  endmodule	// user_project_wrapper
 
