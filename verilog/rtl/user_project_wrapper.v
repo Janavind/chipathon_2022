@@ -223,7 +223,7 @@ macro_2xdrive u_macro_2xdrive (
 			.io_active(active[2]),
 			.io_in(io_in[37:0]),
 			.io_out(io_out[37:0]),
-			.io_oeb(io_oeb[37:0]),
+			.io_oeb(io_oeb[37:0])
 		//	.user_irq(user_irq),
 		//	.user_clock2(user_clock2),
 		//	.analog_io(analog_io)

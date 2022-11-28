@@ -42,7 +42,7 @@ module user_project_wrapper (user_clock2,
  input [3:0] wbs_sel_i;
 
 
- macro_2to3 u_macro_2to3 (.io_active(la_data_in[5]),
+ macro_2to3 u_macro_2to3 (.io_active(la_data_in[3]),
     .wb_rst_i(wb_rst_i),
     .wbs_ack_o(wbs_ack_o),
     .wbs_cyc_i(wbs_cyc_i),
@@ -1250,7 +1250,7 @@ module user_project_wrapper (user_clock2,
     wbs_sel_i[2],
     wbs_sel_i[1],
     wbs_sel_i[0]}));
- macro_and_inv u_macro_and_inv (.io_active(la_data_in[8]),
+ macro_and_inv u_macro_and_inv (.io_active(la_data_in[4]),
     .wb_rst_i(wb_rst_i),
     .wbs_ack_o(wbs_ack_o),
     .wbs_cyc_i(wbs_cyc_i),
