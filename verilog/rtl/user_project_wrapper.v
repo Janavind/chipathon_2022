@@ -160,7 +160,7 @@ macro_10 u_macro_10 (
 
 		);
 
-*/
+
 macro_golden u_macro_golden (
 
 		`ifdef USE_POWER_PINS
@@ -265,7 +265,8 @@ macro_2to3 u_macro_2to3 (
 		//	.analog_io(analog_io)
 
 		);
-/*
+
+
 macro_decap_12 u_macro_decap_12 (
 
 	`ifdef USE_POWER_PINS
@@ -334,8 +335,8 @@ macro_no_decap u_macro_no_decap (
 		//	.analog_io(analog_io)
 
 		);
-
 */
+
 macro_nand_inv u_macro_nand_inv (
 
 	`ifdef USE_POWER_PINS
