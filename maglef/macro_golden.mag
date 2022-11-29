@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1668726548
+timestamp 1669700204
 << nwell >>
 rect 1066 47045 48890 47366
 rect 1066 45957 48890 46523
@@ -48,7 +48,7 @@ rect 1066 2437 48890 3003
 << obsli1 >>
 rect 1104 2159 48852 47345
 << obsm1 >>
-rect 1104 1912 48852 47660
+rect 1104 1912 48852 47864
 << metal2 >>
 rect 3974 49200 4030 50000
 rect 4342 49200 4398 50000
@@ -774,11 +774,13 @@ rect 45670 49144 45870 49314
 rect 46038 49144 47360 49314
 rect 2596 856 47360 49144
 << obsm3 >>
-rect 4210 2143 43043 47361
+rect 4210 2143 44331 47361
 << metal4 >>
 rect 4208 2128 4528 47376
 rect 19568 2128 19888 47376
 rect 34928 2128 35248 47376
+<< obsm4 >>
+rect 27659 42331 27725 45661
 << labels >>
 rlabel metal2 s 3974 49200 4030 50000 6 io_active
 port 1 nsew signal input
@@ -2000,8 +2002,8 @@ port 607 nsew signal input
 string FIXED_BBOX 0 0 50000 50000
 string LEFclass BLOCK
 string LEFview TRUE
-string GDS_END 1537984
-string GDS_FILE /opt/pico/openlane/user_proj_example/runs/22_11_17_17_07/results/signoff/macro_golden.magic.gds
-string GDS_START 202512
+string GDS_END 1571074
+string GDS_FILE /opt/caravel_pico/openlane/user_proj_example/runs/22_11_29_00_34/results/signoff/macro_golden.magic.gds
+string GDS_START 229812
 << end >>
 

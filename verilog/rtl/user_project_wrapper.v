@@ -160,7 +160,7 @@ macro_10 u_macro_10 (
 
 		);
 
-
+*/
 macro_golden u_macro_golden (
 
 		`ifdef USE_POWER_PINS
@@ -195,7 +195,7 @@ macro_golden u_macro_golden (
 
 		);
 
-*/
+
 macro_2xdrive u_macro_2xdrive (
 
 		`ifdef USE_POWER_PINS
@@ -335,8 +335,8 @@ macro_no_decap u_macro_no_decap (
 
 		);
 
-
-macro_and_inv u_macro_and_inv (
+*/
+macro_nand_inv u_macro_nand_inv (
 
 	`ifdef USE_POWER_PINS
 			.vdda1(vdda1),  // User area 1 3.3V supply
@@ -369,7 +369,7 @@ macro_and_inv u_macro_and_inv (
 		//	.analog_io(analog_io)
 
 		);
-*/
+
 	
  endmodule	// user_project_wrapper
 

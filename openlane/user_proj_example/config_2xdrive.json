@@ -15,7 +15,7 @@
     "GND_NETS": ["vssd1"],
     "DIODE_INSERTION_STRATEGY": 4,
     "SYNTH_READ_BLACKBOX_LIB": 1,
-    "VERILOG_FILES_BLACKBOX": ["/opt/pico/verilog/rtl/synthesis/macro_2xdrive.v"],
+    "VERILOG_FILES_BLACKBOX": ["/opt/caravel_pico/verilog/rtl/synthesis/macro_2xdrive.v"],
     "RUN_CVC": 1,
 
     "pdk::sky130*": {
